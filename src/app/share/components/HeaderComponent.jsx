@@ -9,10 +9,10 @@ const HeaderComponent = () => {
     <Link href="/">
       <Image width={134} height={34} src="/images/logoMerca.png" alt="logo"/>
       </Link>
-      <form className="w-full flex" action="/items">
+      <form className="w-full flex cursor-pointer" action="/items">
         <input className="flex-1 p-2 shadow-md outline-none" autoComplete="off" name="q" type="text" placeholder="Buscar productos marcas y mas..." />
         <button className="bg-white p-3 border-l border-l-slate-200 shadow-md">
-          <Image width={16} height={16} src="/images/search.png" alt="lupa"/>
+          <Image width={20} height={20} src="/images/lupa.png" alt="lupa"/>
         </button>
       </form>
     </div>
